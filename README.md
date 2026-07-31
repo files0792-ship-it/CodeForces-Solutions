@@ -6,16 +6,17 @@
 
 | Total Problems | Topics |
 |---|---|
-| 39 | 14 |
+| 40 | 15 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [binary search](#binary-search) (1)
+- [bitmasks](#bitmasks) (1)
 - [brute force](#brute-force) (6)
 - [combinatorics](#combinatorics) (2)
-- [constructive algorithms](#constructive-algorithms) (11)
+- [constructive algorithms](#constructive-algorithms) (12)
 - [data structures](#data-structures) (1)
 - [dp](#dp) (1)
 - [games](#games) (1)
@@ -34,6 +35,12 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1744C | [Traffic Light](https://codeforces.com/contest/1744/problem/C) | 1000 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1744/C%20-%20Traffic%20Light/solution.cpp) |
+
+### bitmasks
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1632B | [Roof Construction](https://codeforces.com/contest/1632/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1632/B%20-%20Roof%20Construction/solution.cpp) |
 
 ### brute force
 
@@ -58,6 +65,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1614B | [Divan and a New Project ](https://codeforces.com/contest/1614/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1614/B%20-%20Divan%20and%20a%20New%20Project%20/solution.cpp) |
+| 1632B | [Roof Construction](https://codeforces.com/contest/1632/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1632/B%20-%20Roof%20Construction/solution.cpp) |
 | 1659A | [Red Versus Blue](https://codeforces.com/contest/1659/problem/A) | 1000 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1659/A%20-%20Red%20Versus%20Blue/solution.cpp) |
 | 1691B | [Shoe Shuffling](https://codeforces.com/contest/1691/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1691/B%20-%20Shoe%20Shuffling/solution.cpp) |
 | 1715B | [Beautiful Array](https://codeforces.com/contest/1715/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1715/B%20-%20Beautiful%20Array/solution.cpp) |
