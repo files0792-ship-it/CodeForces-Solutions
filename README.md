@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 59 | 16 |
+| 60 | 18 |
 
 ---
 
@@ -21,11 +21,13 @@
 - [data structures](#data-structures) (3)
 - [dp](#dp) (3)
 - [games](#games) (1)
+- [geometry](#geometry) (1)
 - [greedy](#greedy) (24)
 - [implementation](#implementation) (19)
-- [math](#math) (20)
+- [math](#math) (21)
 - [number theory](#number-theory) (10)
-- [sortings](#sortings) (13)
+- [shortest paths](#shortest-paths) (1)
+- [sortings](#sortings) (14)
 - [strings](#strings) (7)
 - [two pointers](#two-pointers) (5)
 
@@ -121,6 +123,12 @@
 |---|---------|------------|----------|
 | 1899A | [Game with Integers](https://codeforces.com/contest/1899/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1899/A%20-%20Game%20with%20Integers/solution.cpp) |
 
+### geometry
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1869B | [2D Traveling](https://codeforces.com/contest/1869/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1869/B%20-%202D%20Traveling/solution.cpp) |
+
 ### greedy
 
 | # | Problem | Difficulty | Solution |
@@ -194,6 +202,7 @@
 | 1849B | [Monsters](https://codeforces.com/contest/1849/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1849/B%20-%20Monsters/solution.cpp) |
 | 1855B | [Longest Divisors Interval](https://codeforces.com/contest/1855/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1855/B%20-%20Longest%20Divisors%20Interval/solution.cpp) |
 | 1859B | [Olya and Game with Arrays](https://codeforces.com/contest/1859/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1859/B%20-%20Olya%20and%20Game%20with%20Arrays/solution.cpp) |
+| 1869B | [2D Traveling](https://codeforces.com/contest/1869/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1869/B%20-%202D%20Traveling/solution.cpp) |
 | 1878C | [Vasilije in Cacak](https://codeforces.com/contest/1878/problem/C) | 900 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1878/C%20-%20Vasilije%20in%20Cacak/solution.cpp) |
 | 1891B | [Deja Vu](https://codeforces.com/contest/1891/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1891/B%20-%20Deja%20Vu/solution.cpp) |
 | 1899A | [Game with Integers](https://codeforces.com/contest/1899/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1899/A%20-%20Game%20with%20Integers/solution.cpp) |
@@ -214,6 +223,12 @@
 | 1899B | [250 Thousand Tons of TNT](https://codeforces.com/contest/1899/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1899/B%20-%20250%20Thousand%20Tons%20of%20TNT/solution.cpp) |
 | 2247A | [Zero Sum](https://codeforces.com/contest/2247/problem/A) | Unrated | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/2247/A%20-%20Zero%20Sum/solution.cpp) |
 
+### shortest paths
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1869B | [2D Traveling](https://codeforces.com/contest/1869/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1869/B%20-%202D%20Traveling/solution.cpp) |
+
 ### sortings
 
 | # | Problem | Difficulty | Solution |
@@ -225,6 +240,7 @@
 | 1849B | [Monsters](https://codeforces.com/contest/1849/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1849/B%20-%20Monsters/solution.cpp) |
 | 1850D | [Balanced Round](https://codeforces.com/contest/1850/problem/D) | 900 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1850/D%20-%20Balanced%20Round/solution.cpp) |
 | 1859B | [Olya and Game with Arrays](https://codeforces.com/contest/1859/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1859/B%20-%20Olya%20and%20Game%20with%20Arrays/solution.cpp) |
+| 1869B | [2D Traveling](https://codeforces.com/contest/1869/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1869/B%20-%202D%20Traveling/solution.cpp) |
 | 1873E | [Building an Aquarium](https://codeforces.com/contest/1873/problem/E) | 1100 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1873/E%20-%20Building%20an%20Aquarium/solution.cpp) |
 | 1876A | [Helmets in Night Light](https://codeforces.com/contest/1876/problem/A) | 1000 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1876/A%20-%20Helmets%20in%20Night%20Light/solution.cpp) |
 | 1891B | [Deja Vu](https://codeforces.com/contest/1891/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1891/B%20-%20Deja%20Vu/solution.cpp) |
