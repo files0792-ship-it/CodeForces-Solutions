@@ -1,0 +1,22 @@
+<h2><a href="https://codeforces.com/contest/1827/problem/A" target="_blank" rel="noopener noreferrer">1827A — Counting Orders</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1100 |
+| **Language** | C++20 (GCC 13-64) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1827A](https://codeforces.com/contest/1827/problem/A) |
+
+## Topics
+`combinatorics` `math` `sortings` `two pointers`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">A. Counting Orders</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>You are given two arrays $$$a$$$ and $$$b$$$ each consisting of $$$n$$$ integers. All elements of $$$a$$$ are pairwise distinct.</p><p>Find the number of ways to reorder $$$a$$$ such that $$$a_i  \gt  b_i$$$ for all $$$1 \le i \le n$$$, modulo $$$10^9 + 7$$$.</p><p>Two ways of reordering are considered different if the resulting arrays are different.</p></div><div class="input-specification"><div class="section-title">Input</div><p>Each test contains multiple test cases. The first line contains the number of test cases $$$t$$$ ($$$1 \le t \le 10^4$$$). The description of the test cases follows.</p><p>The first line of each test case contains a single integer $$$n$$$ ($$$1 \le n \le 2 \cdot 10^{5}$$$) — the length of the array $$$a$$$ and $$$b$$$.</p><p>The second line of each test case contains $$$n$$$ distinct integers $$$a_1$$$, $$$a_2$$$, $$$\ldots$$$, $$$a_n$$$ ($$$1 \le a_i \le 10^9$$$) — the array $$$a$$$. It is guaranteed that all elements of $$$a$$$ are pairwise distinct.</p><p>The second line of each test case contains $$$n$$$ integers $$$b_1$$$, $$$b_2$$$, $$$\ldots$$$, $$$b_n$$$ ($$$1 \le b_i \le 10^9$$$) — the array $$$b$$$.</p><p>It is guaranteed that the sum of $$$n$$$ over all test cases does not exceed $$$2 \cdot 10^{5}$$$.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, output the number of ways to reorder array $$$a$$$ such that $$$a_i  \gt  b_i$$$ for all $$$1 \le i \le n$$$, modulo $$$10^9 + 7$$$.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0003831425265508981" id="id009141006540362571" class="input-output-copier">Copy</div></div><pre id="id0003831425265508981"><div class="test-example-line test-example-line-even test-example-line-0">5</div><div class="test-example-line test-example-line-odd test-example-line-1">6</div><div class="test-example-line test-example-line-odd test-example-line-1">9 6 8 4 5 2</div><div class="test-example-line test-example-line-odd test-example-line-1">4 1 5 6 3 1</div><div class="test-example-line test-example-line-even test-example-line-2">3</div><div class="test-example-line test-example-line-even test-example-line-2">4 3 2</div><div class="test-example-line test-example-line-even test-example-line-2">3 4 9</div><div class="test-example-line test-example-line-odd test-example-line-3">1</div><div class="test-example-line test-example-line-odd test-example-line-3">2</div><div class="test-example-line test-example-line-odd test-example-line-3">1</div><div class="test-example-line test-example-line-even test-example-line-4">3</div><div class="test-example-line test-example-line-even test-example-line-4">2 3 4</div><div class="test-example-line test-example-line-even test-example-line-4">1 3 3</div><div class="test-example-line test-example-line-odd test-example-line-5">12</div><div class="test-example-line test-example-line-odd test-example-line-5">2 3 7 10 23 28 29 50 69 135 420 1000</div><div class="test-example-line test-example-line-odd test-example-line-5">1 1 2 3 5 8 13 21 34 55 89 144</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id006450729648424249" id="id009130578162727259" class="input-output-copier">Copy</div></div><pre id="id006450729648424249">32
+0
+1
+0
+13824
+</pre></div></div></div>
