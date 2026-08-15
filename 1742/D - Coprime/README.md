@@ -1,0 +1,23 @@
+<h2><a href="https://codeforces.com/contest/1742/problem/D" target="_blank" rel="noopener noreferrer">1742D — Coprime</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1100 |
+| **Language** | C++20 (GCC 13-64) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1742D](https://codeforces.com/contest/1742/problem/D) |
+
+## Topics
+`brute force` `greedy` `number theory`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">D. Coprime</div><div class="time-limit"><div class="property-title">time limit per test</div>3 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>Given an array of $$$n$$$ positive integers $$$a_1, a_2, \dots, a_n$$$ ($$$1 \le a_i \le 1000$$$). Find the maximum value of $$$i + j$$$ such that $$$a_i$$$ and $$$a_j$$$ are coprime,$$$^{\dagger}$$$ or $$$-1$$$ if no such $$$i$$$, $$$j$$$ exist.</p><p>For example consider the array $$$[1, 3, 5, 2, 4, 7, 7]$$$. The maximum value of $$$i + j$$$ that can be obtained is $$$5 + 7$$$, since $$$a_5 = 4$$$ and $$$a_7 = 7$$$ are coprime.</p><p>$$$^{\dagger}$$$ Two integers $$$p$$$ and $$$q$$$ are <a href="https://en.wikipedia.org/wiki/Coprime_integers">coprime</a> if the only positive integer that is a divisor of both of them is $$$1$$$ (that is, their <a href="https://en.wikipedia.org/wiki/Greatest_common_divisor">greatest common divisor</a> is $$$1$$$).</p></div><div class="input-specification"><div class="section-title">Input</div><p>The input consists of multiple test cases. The first line contains an integer $$$t$$$ ($$$1 \leq t \leq 10$$$) — the number of test cases. The description of the test cases follows.</p><p>The first line of each test case contains an integer $$$n$$$ ($$$2 \leq n \leq 2\cdot10^5$$$) — the length of the array.</p><p>The following line contains $$$n$$$ space-separated positive integers $$$a_1$$$, $$$a_2$$$,..., $$$a_n$$$ ($$$1 \leq a_i \leq 1000$$$) — the elements of the array.</p><p>It is guaranteed that the sum of $$$n$$$ over all test cases does not exceed $$$2\cdot10^5$$$.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, output a single integer  — the maximum value of $$$i + j$$$ such that $$$i$$$ and $$$j$$$ satisfy the condition that $$$a_i$$$ and $$$a_j$$$ are coprime, or output $$$-1$$$ in case no $$$i$$$, $$$j$$$ satisfy the condition.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id006754872224301294" id="id005962520079043049" class="input-output-copier">Copy</div></div><pre id="id006754872224301294"><div class="test-example-line test-example-line-even test-example-line-0">6</div><div class="test-example-line test-example-line-odd test-example-line-1">3</div><div class="test-example-line test-example-line-odd test-example-line-1">3 2 1</div><div class="test-example-line test-example-line-even test-example-line-2">7</div><div class="test-example-line test-example-line-even test-example-line-2">1 3 5 2 4 7 7</div><div class="test-example-line test-example-line-odd test-example-line-3">5</div><div class="test-example-line test-example-line-odd test-example-line-3">1 2 3 4 5</div><div class="test-example-line test-example-line-even test-example-line-4">3</div><div class="test-example-line test-example-line-even test-example-line-4">2 2 4</div><div class="test-example-line test-example-line-odd test-example-line-5">6</div><div class="test-example-line test-example-line-odd test-example-line-5">5 4 3 15 12 16</div><div class="test-example-line test-example-line-even test-example-line-6">5</div><div class="test-example-line test-example-line-even test-example-line-6">1 2 2 3 6</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0037911025409639465" id="id0014641170899382439" class="input-output-copier">Copy</div></div><pre id="id0037911025409639465">6
+12
+9
+-1
+10
+7
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>For the first test case, we can choose $$$i = j = 3$$$, with sum of indices equal to $$$6$$$, since $$$1$$$ and $$$1$$$ are coprime.</p><p>For the second test case, we can choose $$$i = 7$$$ and $$$j = 5$$$, with sum of indices equal to $$$7 + 5 = 12$$$, since $$$7$$$ and $$$4$$$ are coprime.</p></div>
