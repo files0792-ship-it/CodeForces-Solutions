@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 77 | 18 |
+| 78 | 18 |
 
 ---
 
@@ -17,7 +17,7 @@
 - [bitmasks](#bitmasks) (1)
 - [brute force](#brute-force) (15)
 - [combinatorics](#combinatorics) (4)
-- [constructive algorithms](#constructive-algorithms) (17)
+- [constructive algorithms](#constructive-algorithms) (18)
 - [data structures](#data-structures) (3)
 - [dp](#dp) (3)
 - [games](#games) (1)
@@ -105,6 +105,7 @@
 | 1797B | [Li Hua and Pattern](https://codeforces.com/contest/1797/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1797/B%20-%20Li%20Hua%20and%20Pattern/solution.cpp) |
 | 1831B | [Array merging](https://codeforces.com/contest/1831/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1831/B%20-%20Array%20merging/solution.cpp) |
 | 1859B | [Olya and Game with Arrays](https://codeforces.com/contest/1859/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1859/B%20-%20Olya%20and%20Game%20with%20Arrays/solution.cpp) |
+| 1862B | [Sequence Game](https://codeforces.com/contest/1862/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1862/B%20-%20Sequence%20Game/solution.cpp) |
 | 1869A | [Make It Zero](https://codeforces.com/contest/1869/problem/A) | 900 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1869/A%20-%20Make%20It%20Zero/solution.cpp) |
 | 1890A | [Doremy's Paint 3](https://codeforces.com/contest/1890/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1890/A%20-%20Doremy's%20Paint%203/solution.cpp) |
 | 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.cpp) |
