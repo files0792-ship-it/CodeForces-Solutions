@@ -1,0 +1,21 @@
+<h2><a href="https://codeforces.com/contest/1656/problem/B" target="_blank" rel="noopener noreferrer">1656B — Subtract Operation</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1100 |
+| **Language** | C++20 (GCC 13-64) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1656B](https://codeforces.com/contest/1656/problem/B) |
+
+## Topics
+`data structures` `greedy` `math` `two pointers`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">B. Subtract Operation</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>You are given a list of $$$n$$$ integers. You can perform the following operation: you choose an element $$$x$$$ from the list, erase $$$x$$$ from the list, and subtract the value of $$$x$$$ from all the remaining elements. Thus, in one operation, the length of the list is decreased by exactly $$$1$$$.</p><p>Given an integer $$$k$$$ ($$$k \gt 0$$$), find if there is some sequence of $$$n-1$$$ operations such that, after applying the operations, the only remaining element of the list is equal to $$$k$$$.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The input consists of multiple test cases. The first line contains a single integer $$$t$$$ ($$$1 \leq t \leq 10^4$$$) — the number of test cases. Description of the test cases follows.</p><p>The first line of each test case contains two integers $$$n$$$ and $$$k$$$ ($$$2 \leq n \leq 2\cdot 10^5$$$, $$$1 \leq k \leq 10^9$$$), the number of integers in the list, and the target value, respectively.</p><p>The second line of each test case contains the $$$n$$$ integers of the list $$$a_1, a_2, \ldots, a_n$$$ ($$$-10^9 \leq a_i \leq 10^9$$$).</p><p>It is guaranteed that the sum of $$$n$$$ over all test cases is not greater that $$$2 \cdot 10^5$$$.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, print <span class="tex-font-style-tt">YES</span> if you can achieve $$$k$$$ with a sequence of $$$n-1$$$ operations. Otherwise, print <span class="tex-font-style-tt">NO</span>.</p><p>You may print each letter in any case (for example, "YES", "Yes", "yes", "yEs" will all be recognized as a positive answer).</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0042499151648205624" id="id004268559592303721" class="input-output-copier">Copy</div></div><pre id="id0042499151648205624"><div class="test-example-line test-example-line-even test-example-line-0">4</div><div class="test-example-line test-example-line-odd test-example-line-1">4 5</div><div class="test-example-line test-example-line-odd test-example-line-1">4 2 2 7</div><div class="test-example-line test-example-line-even test-example-line-2">5 4</div><div class="test-example-line test-example-line-even test-example-line-2">1 9 1 3 4</div><div class="test-example-line test-example-line-odd test-example-line-3">2 17</div><div class="test-example-line test-example-line-odd test-example-line-3">17 0</div><div class="test-example-line test-example-line-even test-example-line-4">2 17</div><div class="test-example-line test-example-line-even test-example-line-4">18 18</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0036302740558260893" id="id0049673047227125333" class="input-output-copier">Copy</div></div><pre id="id0036302740558260893">YES
+NO
+YES
+NO
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first example we have the list $$$\{4, 2, 2, 7\}$$$, and we have the target $$$k = 5$$$. One way to achieve it is the following: first we choose the third element, obtaining the list $$$\{2, 0, 5\}$$$. Next we choose the first element, obtaining the list $$$\{-2, 3\}$$$. Finally, we choose the first element, obtaining the list $$$\{5\}$$$. </p></div>
