@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 92 | 18 |
+| 93 | 18 |
 
 ---
 
@@ -22,14 +22,14 @@
 - [dp](#dp) (3)
 - [games](#games) (2)
 - [geometry](#geometry) (2)
-- [greedy](#greedy) (36)
+- [greedy](#greedy) (37)
 - [implementation](#implementation) (21)
 - [math](#math) (37)
 - [number theory](#number-theory) (14)
 - [shortest paths](#shortest-paths) (1)
 - [sortings](#sortings) (18)
 - [strings](#strings) (9)
-- [two pointers](#two-pointers) (10)
+- [two pointers](#two-pointers) (11)
 
 ---
 
@@ -163,6 +163,7 @@
 | 1447B | [Numbers Box](https://codeforces.com/contest/1447/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1447/B%20-%20Numbers%20Box/solution.cpp) |
 | 1474B | [Different Divisors](https://codeforces.com/contest/1474/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1474/B%20-%20Different%20Divisors/solution.cpp) |
 | 1485A | [Add and Divide](https://codeforces.com/contest/1485/problem/A) | 1000 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1485/A%20-%20Add%20and%20Divide/solution.cpp) |
+| 1610B | [Kalindrome Array](https://codeforces.com/contest/1610/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1610/B%20-%20Kalindrome%20Array/solution.cpp) |
 | 1656B | [Subtract Operation](https://codeforces.com/contest/1656/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1656/B%20-%20Subtract%20Operation/solution.cpp) |
 | 1659A | [Red Versus Blue](https://codeforces.com/contest/1659/problem/A) | 1000 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1659/A%20-%20Red%20Versus%20Blue/solution.cpp) |
 | 1669F | [Eating Candies](https://codeforces.com/contest/1669/problem/F) | 1100 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1669/F%20-%20Eating%20Candies/solution.cpp) |
@@ -328,6 +329,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1610B | [Kalindrome Array](https://codeforces.com/contest/1610/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1610/B%20-%20Kalindrome%20Array/solution.cpp) |
 | 1656B | [Subtract Operation](https://codeforces.com/contest/1656/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1656/B%20-%20Subtract%20Operation/solution.cpp) |
 | 1669F | [Eating Candies](https://codeforces.com/contest/1669/problem/F) | 1100 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1669/F%20-%20Eating%20Candies/solution.cpp) |
 | 1690D | [Black and White Stripe](https://codeforces.com/contest/1690/problem/D) | 1000 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1690/D%20-%20Black%20and%20White%20Stripe/solution.cpp) |
