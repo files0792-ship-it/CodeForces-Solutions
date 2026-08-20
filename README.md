@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 93 | 18 |
+| 94 | 18 |
 
 ---
 
@@ -15,16 +15,16 @@
 - [Uncategorized](#uncategorized) (8)
 - [binary search](#binary-search) (6)
 - [bitmasks](#bitmasks) (2)
-- [brute force](#brute-force) (17)
+- [brute force](#brute-force) (18)
 - [combinatorics](#combinatorics) (4)
 - [constructive algorithms](#constructive-algorithms) (21)
 - [data structures](#data-structures) (5)
 - [dp](#dp) (3)
 - [games](#games) (2)
 - [geometry](#geometry) (2)
-- [greedy](#greedy) (37)
+- [greedy](#greedy) (38)
 - [implementation](#implementation) (21)
-- [math](#math) (37)
+- [math](#math) (38)
 - [number theory](#number-theory) (14)
 - [shortest paths](#shortest-paths) (1)
 - [sortings](#sortings) (18)
@@ -78,6 +78,7 @@
 | 1821B | [Sort the Subarray](https://codeforces.com/contest/1821/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1821/B%20-%20Sort%20the%20Subarray/solution.cpp) |
 | 1832B | [Maximum Sum](https://codeforces.com/contest/1832/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1832/B%20-%20Maximum%20Sum/solution.cpp) |
 | 1850D | [Balanced Round](https://codeforces.com/contest/1850/problem/D) | 900 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1850/D%20-%20Balanced%20Round/solution.cpp) |
+| 1853A | [Desorting](https://codeforces.com/contest/1853/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1853/A%20-%20Desorting/solution.cpp) |
 | 1855B | [Longest Divisors Interval](https://codeforces.com/contest/1855/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1855/B%20-%20Longest%20Divisors%20Interval/solution.cpp) |
 | 1881A | [Don't Try to Count](https://codeforces.com/contest/1881/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1881/A%20-%20Don't%20Try%20to%20Count/solution.cpp) |
 | 1891B | [Deja Vu](https://codeforces.com/contest/1891/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1891/B%20-%20Deja%20Vu/solution.cpp) |
@@ -184,6 +185,7 @@
 | 1837B | [Comparison String](https://codeforces.com/contest/1837/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1837/B%20-%20Comparison%20String/solution.cpp) |
 | 1849B | [Monsters](https://codeforces.com/contest/1849/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1849/B%20-%20Monsters/solution.cpp) |
 | 1850D | [Balanced Round](https://codeforces.com/contest/1850/problem/D) | 900 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1850/D%20-%20Balanced%20Round/solution.cpp) |
+| 1853A | [Desorting](https://codeforces.com/contest/1853/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1853/A%20-%20Desorting/solution.cpp) |
 | 1855B | [Longest Divisors Interval](https://codeforces.com/contest/1855/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1855/B%20-%20Longest%20Divisors%20Interval/solution.cpp) |
 | 1857A | [Array Coloring](https://codeforces.com/contest/1857/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1857/A%20-%20Array%20Coloring/solution.cpp) |
 | 1858A | [Buttons](https://codeforces.com/contest/1858/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1858/A%20-%20Buttons/solution.cpp) |
@@ -249,6 +251,7 @@
 | 1840C | [Ski Resort](https://codeforces.com/contest/1840/problem/C) | 1000 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1840/C%20-%20Ski%20Resort/solution.cpp) |
 | 1849B | [Monsters](https://codeforces.com/contest/1849/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1849/B%20-%20Monsters/solution.cpp) |
 | 1850E | [Cardboard for Pictures](https://codeforces.com/contest/1850/problem/E) | 1100 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1850/E%20-%20Cardboard%20for%20Pictures/solution.cpp) |
+| 1853A | [Desorting](https://codeforces.com/contest/1853/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1853/A%20-%20Desorting/solution.cpp) |
 | 1855B | [Longest Divisors Interval](https://codeforces.com/contest/1855/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1855/B%20-%20Longest%20Divisors%20Interval/solution.cpp) |
 | 1857A | [Array Coloring](https://codeforces.com/contest/1857/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1857/A%20-%20Array%20Coloring/solution.cpp) |
 | 1858A | [Buttons](https://codeforces.com/contest/1858/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/files0792-ship-it/CodeForces-Solutions/blob/HEAD/1858/A%20-%20Buttons/solution.cpp) |
